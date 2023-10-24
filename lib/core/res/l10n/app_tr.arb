@@ -1,0 +1,19 @@
+{
+  "birthday": "Doğum Tarihi",
+  "camera": "Kamera",
+  "createProfile": "Profil Oluştur",
+  "email": "E-Posta",
+  "famale": "Kadın",
+  "gallery": "Galeri",
+  "gender": "Cinsiyet",
+  "login": "Giriş Yap",
+  "male": "Erkek",
+  "name": "Ad",
+  "other": "Diğer",
+  "password": "Parola",
+  "phone": "Telefon Numrarası",
+  "register": "Kayıt Ol",
+  "resetPassword": "Şifre Sıfırla",
+  "surname": "Soyad",
+  "unknown": "Bilinmeyen"
+}
