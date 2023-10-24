@@ -21,7 +21,7 @@ class _MainAppState extends BaseState<AppViewModel, MainApp> {
       onGenerateRoute: onGenerateRoute,
       initialRoute: RouteMaps.homeRoute,
       locale: const Locale('tr'),
-      darkTheme: AppTheme.theme(isDark: true),
+      darkTheme: AppTheme.theme(isDark: false),
       /* localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       localeResolutionCallback: (

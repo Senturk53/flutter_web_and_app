@@ -19,9 +19,10 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     if (kIsWeb) {
       return Scaffold(
-        appBar: AppBar(title: const Text("Deneme")),
+        backgroundColor: AppColors.albescentWhite,
         body: Column(
           children: [
+            SizedBox(height: MediaQuery.of(context).size.height / 15),
             const NavBar(),
             Container(
               color: AppColors.black,

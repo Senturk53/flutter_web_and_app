@@ -20,7 +20,7 @@ class AppTheme {
           foregroundColor: AppColors.primarySwatch,
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(18),
+            borderRadius: BorderRadius.circular(12),
           ),
         )),
         elevatedButtonTheme: ElevatedButtonThemeData(
@@ -34,13 +34,12 @@ class AppTheme {
               ),
           padding: const EdgeInsets.symmetric(vertical: 16, horizontal: 24),
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(18),
+            borderRadius: BorderRadius.circular(12),
           ),
         )),
         inputDecorationTheme: InputDecorationTheme(
             errorMaxLines: 8,
             isDense: true,
-            border:
-                OutlineInputBorder(borderRadius: BorderRadius.circular(18))),
+            border: OutlineInputBorder(borderRadius: BorderRadius.circular(5))),
       );
 }
